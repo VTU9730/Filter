@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu-div{
+    width:600px;
+    margin: auto;
+    text-align: center;
+    background-color: azure;
+}
+button{
+    background-color: white;
+    border:solid 1px rgb(138, 228, 228);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+#item{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    
+}
+#header{
+    display: flex;
+    justify-content:space-around;
+}
+img{
+     height:130px;
+     border: solid 2px green;
+     border-radius: 9px;
+}
+#item-div{
+    margin-top: 20px;
+}
+#item-div p{
+    margin:10px 20px;
+    text-align: left;
+    overflow:auto;
+
+}
+#item-price{
+    color: goldenrod;
+}
