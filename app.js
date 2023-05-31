@@ -6,16 +6,24 @@ let item=document.getElementById('item')
 let sectionDiv=document.getElementById('section-div')
 function displayItems(menu){
     let items=menu.map((item)=>{
-        return `<article id="item">
-        <img src=${item.image} alt="">
-        <div id="item-div">
-            <header id="header">
-                <p id="item-name">${item.name}</p>
-                <p id="item-price">${item.price}</p>
-            </header>
-            <p>${item.des}</p>
-        </div>  
-    </article>`
+        return `<table>
+            <tr>
+                <article id="item">
+                <td>
+                <img src=${item.image} alt="">
+                </td>
+                <td>
+                <div id="item-div">
+                    <header id="header">
+                        <p id="item-name">${item.name}</p>
+                        <p id="item-price">${item.price}</p>
+                    </header>
+                    <p>${item.des}</p>
+                </div>  
+                </td>
+            </article>
+        </tr>
+    </table>`
     })
     sectionDiv.innerHTML=items
 }

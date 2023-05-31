@@ -28,6 +28,7 @@ img{
      height:130px;
      border: solid 2px green;
      border-radius: 9px;
+     width:200px;
 }
 #item-div{
     margin-top: 20px;
