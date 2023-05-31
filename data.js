@@ -7,6 +7,13 @@ export let data=[
         des:'Hot idli makes me active sometimes sleep also'
     },
     {
+        category:'lunch
+        image:'images/fries.jpeg',
+        price:'$ 35',
+        name:'french-ries',
+        des:'Hot friess me active sometimes sleep also'
+    },
+    {
         category:'breakfast',
         image:'images/dosa.jpeg',
         price:'$ 30',
